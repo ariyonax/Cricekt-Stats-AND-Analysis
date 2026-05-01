@@ -1,0 +1,39 @@
+# StumpStats - FastAPI Backend Requirements
+# Install with: pip install -r requirements.txt
+
+# Core Framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# Database
+motor==3.4.0              # Async MongoDB driver
+pymongo==4.7.2
+
+# Authentication
+python-jose[cryptography]==3.3.0   # JWT tokens
+passlib[bcrypt]==1.7.4             # Password hashing
+python-multipart==0.0.9            # Form data / file uploads
+
+# ML & Data Science
+scikit-learn==1.4.2
+xgboost==2.0.3
+pandas==2.2.2
+numpy==1.26.4
+joblib==1.4.2             # Save/load ML models
+
+# HTTP Client (for CricAPI)
+httpx==0.27.0
+
+# PDF Generation (US10)
+reportlab==4.1.0
+
+# Firebase Admin (Real-time - US12)
+firebase-admin==6.5.0
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# CORS & Utilities
+pydantic==2.7.1
+pydantic-settings==2.2.1
+email-validator==2.1.1
