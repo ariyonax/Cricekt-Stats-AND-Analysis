@@ -14,7 +14,18 @@ This project manages and displays:
 * Player records
 * Match-related cricket data
 
+---
 
+# 🚀 Features
+
+* View ODI, T20, and Test batting stats
+* View bowling statistics
+* Team performance tracking
+* Database integration using MySQL
+* Backend API support
+* Interactive frontend UI
+
+---
 
 # 🛠️ Tech Stack
 
