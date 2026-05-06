@@ -1,6 +1,6 @@
 # 🏏 Cricket Stats Management System
 
-A full-stack cricket statistics management web application built using:
+
 
 * Frontend: HTML, CSS, JavaScript
 * Backend: Python / Flask
